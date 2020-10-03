@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { device } from '../../constants';
 
 export const Container = styled.div`
     max-width: 1120px;
@@ -9,7 +10,10 @@ export const Container = styled.div`
 export const Title = styled.h1`
     text-align: center;
     text-transform: uppercase;
-    font-size: 60px;
+    font-size: 40px;
+    @media ${device.laptop} {  
+        font-size: 60px;
+    }
 `
 
 export const Description = styled.p`
