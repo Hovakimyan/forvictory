@@ -10,7 +10,7 @@ const Item = ({ item }) => {
         <Styled.Container>
             <Styled.Title>{name}</Styled.Title>
             <Styled.Image title={name} url={item.img} />
-            <Styled.Count>{item.count}</Styled.Count>
+            <Styled.Count>{item.count}+</Styled.Count>
         </Styled.Container>
     )
 }
