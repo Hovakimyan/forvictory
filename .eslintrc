@@ -1,0 +1,56 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:flowtype/recommended",
+    "plugin:react/recommended"
+  ],
+  "globals": {
+    "GLOBALS": false,
+    "configure": false,
+    "localDevBackend": false,
+    "mount": false,
+    "React": false,
+    "render": false,
+    "shallow": false
+  },
+  "plugins": [
+    "react",
+    "flowtype",
+    "prettier"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "es6": true
+    }
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": [
+        ["api", "./src/api"],
+        ["helpers", "./src/helpers"],
+        ["constants", "./src/constants"],
+        ["components", "./src/components"],
+        ["containers", "./src/containers"],
+        ["reduxStore", "./src/redux-store"]
+      ]
+    }
+  },
+  "rules": {
+    "flowtype/space-after-type-colon": [ 2, "always", { "allowLineBreak": true } ],
+    "no-prototype-builtins": 0,
+    "react/display-name": 0,
+    "flowtype/generic-spacing": 0,
+    "react/prop-types": 0
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "react-example",
+  "version": "1.0.0",
+  "description": "example for react apps",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergey Hovakimyan",
+  "license": "ISC",
+  "dependencies": {
+    "immer": "6.0.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-redux": "7.2.0",
+    "react-router-dom": "5.1.2",
+    "redux": "4.0.5",
+    "redux-devtools-extension": "2.13.8",
+    "reselect": "4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.9.0",
+    "@babel/plugin-proposal-class-properties": "7.8.3",
+    "@babel/plugin-transform-flow-strip-types": "7.9.0",
+    "@babel/preset-env": "7.9.0",
+    "@babel/preset-flow": "7.9.0",
+    "@babel/preset-react": "7.9.4",
+    "babel-core": "6.26.3",
+    "babel-eslint": "10.1.0",
+    "babel-loader": "8.1.0",
+    "babel-plugin-module-resolver": "4.0.0",
+    "babel-plugin-styled-components": "1.10.7",
+    "babel-plugin-transform-es2015-modules-commonjs": "6.26.2",
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.10.1",
+    "eslint-import-resolver-alias": "1.1.2",
+    "eslint-plugin-flowtype": "4.7.0",
+    "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-react": "7.19.0",
+    "flow-bin": "0.121.0",
+    "html-loader": "0.5.5",
+    "html-webpack-plugin": "4.0.2",
+    "prettier": "2.0.2",
+    "webpack": "4.42.1",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.10.3"
+  }
+}
