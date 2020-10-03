@@ -24,9 +24,10 @@ export const Count = styled.p`
 `
 
 export const Image = styled.div`
-    width: 200px;
-    height: 200px;
+    width: 140px;
+    height: 140px;
     background: url(${({ url }) => url}) no-repeat center;
     background-size: contain;
     margin: 15px;
+    filter: invert(1);
 `

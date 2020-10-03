@@ -4,7 +4,7 @@ import { device } from '../../constants';
 export const Container = styled.div`
     max-width: 1120px;
     margin: 0 auto;
-    padding: 10px 0;
+    padding-bottom: 15px;
 `
 
 export const Title = styled.h1`
