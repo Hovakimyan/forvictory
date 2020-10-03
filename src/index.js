@@ -7,5 +7,5 @@ ReactDOM.render(
     <BrowserRouter basename="/">
         <Pages />
     </BrowserRouter>,
-    document.getElementById('home')
+    document.getElementById('root')
 )
