@@ -35,12 +35,10 @@ module.exports = {
     },
     resolve: {
         alias: {
-            api: path.resolve(__dirname, 'src/api'),
             constants: path.resolve(__dirname, 'src/constants'),
-            containers: path.resolve(__dirname, 'src/containers'),
+            pages: path.resolve(__dirname, 'src/pages'),
             components: path.resolve(__dirname, 'src/components'),
             helpers: path.resolve(__dirname, 'src/helpers'),
-            reduxStore: path.resolve(__dirname, 'src/redux-store')
         }
     },
     plugins: [
