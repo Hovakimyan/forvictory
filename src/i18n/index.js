@@ -6,6 +6,7 @@ import flagRU from '../assests/flag-ru.png'
 import flagEN from '../assests/flag-en.png'
 import am from './am.json'
 import ru from './ru.json'
+import en from './en.json'
 
 i18n
     .use(initReactI18next) // passes i18n down to react-i18next
@@ -16,6 +17,9 @@ i18n
             },
             ru: {
                 translation: ru
+            },
+            en: {
+                translation: en
             }
         },
         lng: "am",
