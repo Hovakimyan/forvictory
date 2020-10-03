@@ -2,33 +2,33 @@ import Tank from './tank-icon.png'
 
 const losses = [
     {
-        name: 'Tank',
-        count: 120,
+        name: 'ԱԹՍ',
+        count: 220,
         img: Tank,
     },
     {
-        name: 'Pexot',
-        count: 300,
+        name: 'Զրահատեխնիկա',
+        count: 355,
         img: Tank,
     },
     {
-        name: 'Samalyot',
-        count: 300,
+        name: 'Ուղղաթիռ',
+        count: 14,
         img: Tank,
     },
     {
-        name: 'Vertalyot',
-        count: 300,
+        name: 'Ինքնաթիռ',
+        count: 14,
         img: Tank,
     },
     {
-        name: 'ATS',
-        count: 300,
+        name: 'Սմերչ',
+        count: 4,
         img: Tank,
     },
     {
-        name: 'Inch vor mi ban',
-        count: 300,
+        name: 'Զոհ',
+        count: 2745,
         img: Tank,
     },
 ]
