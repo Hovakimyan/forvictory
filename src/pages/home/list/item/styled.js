@@ -15,12 +15,14 @@ export const Container = styled.div`
 
 export const Title = styled.h3`
     text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
 `
 
 export const Count = styled.p`
     text-align: center;
-    font-size: 40px;
-    font-weight: 600;
+    font-size: 50px;
+    font-weight: 800;
 `
 
 export const Image = styled.div`
