@@ -4,7 +4,7 @@ const ResetCss = createGlobalStyle`
     html, body, #root {
         width: 100%;
         height: 100%;
-        font: 16px Montserrat;
+        font: 16px Roboto;
         font-weight: 400;
         background: #38483b;
         color: #eeeeee;
@@ -26,10 +26,10 @@ const ResetCss = createGlobalStyle`
         padding: 0;
         border: 0;
         vertical-align: baseline;
-        font-family: Montserrat;
+        font-family: Roboto;
     }
     input, textarea {
-        font: 16px Montserrat;
+        font: 16px Roboto;
     }
     /* HTML5 display-role reset for older browsers */
     article, aside, details, figcaption, figure,
