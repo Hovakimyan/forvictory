@@ -17,14 +17,13 @@
     "react-router-dom": "5.1.2",
     "redux": "4.0.5",
     "redux-devtools-extension": "2.13.8",
-    "reselect": "4.0.0"
+    "reselect": "4.0.0",
+    "styled-components": "^5.2.0"
   },
   "devDependencies": {
     "@babel/core": "7.9.0",
     "@babel/plugin-proposal-class-properties": "7.8.3",
-    "@babel/plugin-transform-flow-strip-types": "7.9.0",
     "@babel/preset-env": "7.9.0",
-    "@babel/preset-flow": "7.9.0",
     "@babel/preset-react": "7.9.4",
     "babel-core": "6.26.3",
     "babel-eslint": "10.1.0",
@@ -35,11 +34,9 @@
     "eslint": "6.8.0",
     "eslint-config-prettier": "6.10.1",
     "eslint-import-resolver-alias": "1.1.2",
-    "eslint-plugin-flowtype": "4.7.0",
     "eslint-plugin-import": "2.20.1",
     "eslint-plugin-prettier": "3.1.2",
     "eslint-plugin-react": "7.19.0",
-    "flow-bin": "0.121.0",
     "html-loader": "0.5.5",
     "html-webpack-plugin": "4.0.2",
     "prettier": "2.0.2",

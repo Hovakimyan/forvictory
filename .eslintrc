@@ -4,7 +4,6 @@
     "plugin:prettier/recommended",
     "plugin:import/errors",
     "plugin:import/warnings",
-    "plugin:flowtype/recommended",
     "plugin:react/recommended"
   ],
   "globals": {
@@ -18,7 +17,6 @@
   },
   "plugins": [
     "react",
-    "flowtype",
     "prettier"
   ],
   "parser": "babel-eslint",
@@ -45,10 +43,8 @@
     }
   },
   "rules": {
-    "flowtype/space-after-type-colon": [ 2, "always", { "allowLineBreak": true } ],
     "no-prototype-builtins": 0,
     "react/display-name": 0,
-    "flowtype/generic-spacing": 0,
     "react/prop-types": 0
   }
 }
