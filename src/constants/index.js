@@ -7,32 +7,32 @@ import ATS from '../assests/ats.png'
 
 const losses = [
     {
-        name: 'ԱԹՍ',
+        name: 'UAV',
         count: 123,
         img: ATS,
     },
     {
-        name: 'Զրահատեխնիկա',
+        name: 'ARMOR',
         count: 355,
         img: Tank,
     },
     {
-        name: 'Ուղղաթիռ',
+        name: 'HELICOPTER',
         count: 14,
         img: Helicopter,
     },
     {
-        name: 'Ինքնաթիռ',
+        name: 'PLANE',
         count: 14,
         img: Jet,
     },
     {
-        name: 'Սմերչ',
+        name: 'SMERCH',
         count: 4,
         img: Smerch,
     },
     {
-        name: 'Զոհ',
+        name: 'DEAD',
         count: 2745,
         img: Solider,
     },
