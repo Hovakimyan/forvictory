@@ -8,7 +8,7 @@ import ATS from './ats.png'
 const losses = [
     {
         name: 'ԱԹՍ',
-        count: 220,
+        count: 123,
         img: ATS,
     },
     {
