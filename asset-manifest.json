@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.js": "http://127.0.0.1/controller/static/js/main.82bcb6d6.chunk.js",
-    "main.js.map": "http://127.0.0.1/controller/static/js/main.82bcb6d6.chunk.js.map",
-    "runtime-main.js": "http://127.0.0.1/controller/static/js/runtime-main.6ff8f02b.js",
-    "runtime-main.js.map": "http://127.0.0.1/controller/static/js/runtime-main.6ff8f02b.js.map",
-    "static/js/2.586cf125.chunk.js": "http://127.0.0.1/controller/static/js/2.586cf125.chunk.js",
-    "static/js/2.586cf125.chunk.js.map": "http://127.0.0.1/controller/static/js/2.586cf125.chunk.js.map",
-    "index.html": "http://127.0.0.1/controller/index.html",
-    "precache-manifest.45f756a0a112c003b0b6369ed263402b.js": "http://127.0.0.1/controller/precache-manifest.45f756a0a112c003b0b6369ed263402b.js",
-    "service-worker.js": "http://127.0.0.1/controller/service-worker.js",
-    "static/js/2.586cf125.chunk.js.LICENSE.txt": "http://127.0.0.1/controller/static/js/2.586cf125.chunk.js.LICENSE.txt",
-    "static/media/flag-en.png": "http://127.0.0.1/controller/static/media/flag-en.e2132738.png",
-    "static/media/jet.png": "http://127.0.0.1/controller/static/media/jet.dd219dc5.png",
-    "static/media/solider.png": "http://127.0.0.1/controller/static/media/solider.fc9dcf67.png",
-    "static/media/tank.png": "http://127.0.0.1/controller/static/media/tank.d7301044.png"
+    "main.js": "./static/js/main.82bcb6d6.chunk.js",
+    "main.js.map": "./static/js/main.82bcb6d6.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.dc4c5c86.js",
+    "runtime-main.js.map": "./static/js/runtime-main.dc4c5c86.js.map",
+    "static/js/2.ee453171.chunk.js": "./static/js/2.ee453171.chunk.js",
+    "static/js/2.ee453171.chunk.js.map": "./static/js/2.ee453171.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.11718e623f13e9b852e512334492f80a.js": "./precache-manifest.11718e623f13e9b852e512334492f80a.js",
+    "service-worker.js": "./service-worker.js",
+    "static/js/2.ee453171.chunk.js.LICENSE.txt": "./static/js/2.ee453171.chunk.js.LICENSE.txt",
+    "static/media/flag-en.png": "./static/media/flag-en.e2132738.png",
+    "static/media/jet.png": "./static/media/jet.dd219dc5.png",
+    "static/media/solider.png": "./static/media/solider.fc9dcf67.png",
+    "static/media/tank.png": "./static/media/tank.d7301044.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6ff8f02b.js",
-    "static/js/2.586cf125.chunk.js",
+    "static/js/runtime-main.dc4c5c86.js",
+    "static/js/2.ee453171.chunk.js",
     "static/js/main.82bcb6d6.chunk.js"
   ]
 }
