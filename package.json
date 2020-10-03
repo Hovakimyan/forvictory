@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
-    "build": "webpack",
+    "build": "webpack"
   },
   "homepage": "https://hovakimyan.github.io/forvictory/",
   "author": "Sergey Hovakimyan",
