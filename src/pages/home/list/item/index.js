@@ -1,7 +1,6 @@
 import React from 'react'
 
 import * as Styled from './styled'
-import Img from '../../../../constants/tank-icon.png'
 
 const Item = ({ item }) => {
     return (

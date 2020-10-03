@@ -1,10 +1,15 @@
-import Tank from './tank-icon.png'
+import Tank from './tank.png'
+import Helicopter from './helicopter.png'
+import Solider from './solider.png'
+import Jet from './jet.png'
+import Smerch from './smerch.png'
+import ATS from './ats.png'
 
 const losses = [
     {
         name: 'ԱԹՍ',
         count: 220,
-        img: Tank,
+        img: ATS,
     },
     {
         name: 'Զրահատեխնիկա',
@@ -14,22 +19,22 @@ const losses = [
     {
         name: 'Ուղղաթիռ',
         count: 14,
-        img: Tank,
+        img: Helicopter,
     },
     {
         name: 'Ինքնաթիռ',
         count: 14,
-        img: Tank,
+        img: Jet,
     },
     {
         name: 'Սմերչ',
         count: 4,
-        img: Tank,
+        img: Smerch,
     },
     {
         name: 'Զոհ',
         count: 2745,
-        img: Tank,
+        img: Solider,
     },
 ]
 
