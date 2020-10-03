@@ -1,16 +1,15 @@
 {
   "name": "forvictory",
   "version": "1.0.0",
-  "description": "Statistics app",
+  "description": "For Victory",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "build": "webpack",
   },
-  "homepage": "http://Hovakimyan.github.io/forvictory",
+  "homepage": "https://hovakimyan.github.io/forvictory/",
   "author": "Sergey Hovakimyan",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "immer": "6.0.2",
     "react": "16.13.1",
@@ -40,7 +39,6 @@
     "eslint-plugin-prettier": "3.1.2",
     "eslint-plugin-react": "7.19.0",
     "file-loader": "^6.1.0",
-    "gh-pages": "^3.1.0",
     "html-loader": "0.5.5",
     "html-webpack-plugin": "4.0.2",
     "prettier": "2.0.2",
