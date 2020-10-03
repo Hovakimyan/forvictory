@@ -2,7 +2,7 @@ const HtmlWebPackPlugin = require('html-webpack-plugin')
 const path = require('path')
 
 module.exports = {
-    devtool: "source-map",
+    devtool: 'source-map',
     module: {
         rules: [
             {
@@ -11,27 +11,31 @@ module.exports = {
                 use: {
                     loader: 'babel-loader',
                     options: {
-                        presets: ['@babel/preset-env', '@babel/preset-react']
-                    }
-                }
+                        presets: ['@babel/preset-env', '@babel/preset-react'],
+                    },
+                },
             },
             {
                 test: /\.html$/,
                 use: [
                     {
-                        loader: 'html-loader'
-                    }
-                ]
+                        loader: 'html-loader',
+                    },
+                ],
             },
             {
                 test: /\.css$/,
                 use: [
                     {
-                        loader: 'css-loader'
-                    }
-                ]
-            }
-        ]
+                        loader: 'css-loader',
+                    },
+                ],
+            },
+            {
+                test: /\.(png|svg|jpg|gif)$/,
+                use: ['file-loader'],
+            },
+        ],
     },
     resolve: {
         alias: {
@@ -39,25 +43,25 @@ module.exports = {
             pages: path.resolve(__dirname, 'src/pages'),
             components: path.resolve(__dirname, 'src/components'),
             helpers: path.resolve(__dirname, 'src/helpers'),
-        }
+        },
     },
     plugins: [
         new HtmlWebPackPlugin({
             template: path.resolve(__dirname, 'src/index.html'),
-            filename: './index.html'
-        })
+            filename: './index.html',
+        }),
     ],
     entry: path.resolve(__dirname, 'src/index.js'),
     output: {
         path: path.resolve(__dirname, 'dist'),
         publicPath: '/',
-        filename: `bundle.js`
+        filename: `bundle.js`,
     },
     devServer: {
         contentBase: './dist',
         disableHostCheck: true,
         historyApiFallback: true,
         port: 1234,
-        hot: true
-    }
+        hot: true,
+    },
 }

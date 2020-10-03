@@ -3,7 +3,7 @@ import { Switch, Redirect, Route } from 'react-router-dom'
 import Home from './home'
 import ResetCss from './reset-css'
 
-const Pages = (): React$Node => {
+const Pages = () => {
     return (
         <div>
             <ResetCss />
