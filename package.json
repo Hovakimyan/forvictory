@@ -1,12 +1,14 @@
 {
-  "name": "react-example",
+  "name": "forvictory",
   "version": "1.0.0",
-  "description": "example for react apps",
+  "description": "Statistics app",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "http://Hovakimyan.github.io/forvictory",
   "author": "Sergey Hovakimyan",
   "license": "ISC",
   "dependencies": {
@@ -38,6 +40,7 @@
     "eslint-plugin-prettier": "3.1.2",
     "eslint-plugin-react": "7.19.0",
     "file-loader": "^6.1.0",
+    "gh-pages": "^3.1.0",
     "html-loader": "0.5.5",
     "html-webpack-plugin": "4.0.2",
     "prettier": "2.0.2",
