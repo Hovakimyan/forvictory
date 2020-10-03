@@ -6,6 +6,8 @@ const ResetCss = createGlobalStyle`
         height: 100%;
         font: 16px Montserrat;
         font-weight: 400;
+        background: #38483b;
+        color: #eeeeee;
     }
     html, body, div, span, applet, object, iframe,
     h1, h2, h3, h4, h5, h6, p, blockquote, pre,

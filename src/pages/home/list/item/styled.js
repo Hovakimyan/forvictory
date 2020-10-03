@@ -3,10 +3,8 @@ import styled from 'styled-components'
 export const Container = styled.div`
     box-sizing: border-box;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: #8f8f8f 0 0 12px 0;
     width: 100%;
-    background: rgba(255, 0, 0, 0.1);
+    background: #526547;
     justify-content: center;
     align-items: center;
     display: flex;
