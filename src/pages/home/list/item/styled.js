@@ -4,13 +4,13 @@ import { device } from '../../../../constants';
 export const Container = styled.div`
     box-sizing: border-box;
     padding: 20px;
-    width: 146px;
+    width: 140px;
     background: #526547;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 8px;
     @media ${device.mobileL} {  
         width: 200px;
     }
