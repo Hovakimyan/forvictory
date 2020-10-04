@@ -1,6 +1,6 @@
 import Tank from '../assests/tank.png'
 import Helicopter from '../assests/helicopter.png'
-import Solider from '../assests/solider.png'
+import Solider from '../assests/solider.svg'
 import Jet from '../assests/jet.png'
 import Smerch from '../assests/smerch.png'
 import ATS from '../assests/ats.png'
