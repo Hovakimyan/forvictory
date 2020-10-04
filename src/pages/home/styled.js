@@ -18,6 +18,13 @@ export const Title = styled.h1`
     }
 `
 
-export const Description = styled.p`
-    text-align: center;
+export const Description = styled.div`
+    text-align: left;
+    padding: 0 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+    & > p {
+        line-height: 1.4;
+        padding-top: 10px;
+    }
 `

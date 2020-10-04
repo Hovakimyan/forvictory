@@ -11,6 +11,7 @@ const Home = () => {
             <Styled.Title>{t("TITLE")}</Styled.Title>
             <List />
             <Styled.Description>
+                <p>{t("DESCRIPTION")}</p>
                 <p>#ARTSAKHSTRONG</p>
                 <p>#NKPEACE</p>
             </Styled.Description>
