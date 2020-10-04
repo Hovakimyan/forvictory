@@ -26,6 +26,7 @@ const ResetCss = createGlobalStyle`
         padding: 0;
         border: 0;
         vertical-align: baseline;
+        line-height: 1;
         font-family: Roboto;
     }
     input, textarea {

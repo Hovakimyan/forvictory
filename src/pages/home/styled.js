@@ -9,7 +9,10 @@ export const Container = styled.div`
 export const Title = styled.h1`
     text-align: center;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 30px;
+    @media ${device.mobileM} {  
+        font-size: 40px;
+    }
     @media ${device.laptop} {  
         font-size: 60px;
     }
