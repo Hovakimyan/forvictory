@@ -13,7 +13,7 @@ const losses = [
     },
     {
         name: 'ARMOR',
-        count: 355,
+        count: 357,
         img: Tank,
     },
     {
@@ -23,7 +23,7 @@ const losses = [
     },
     {
         name: 'PLANE',
-        count: 14,
+        count: 17,
         img: Jet,
     },
     {
