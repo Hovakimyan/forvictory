@@ -10,6 +10,7 @@
     "i18next": "^19.8.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0",
     "react-i18next": "^11.7.3",
     "react-router-dom": "^5.2.0",
     "styled-components": "^5.2.0"
