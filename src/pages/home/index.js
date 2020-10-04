@@ -1,10 +1,21 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import * as Styled from './styled'
 import List from './list'
 import { useTranslation } from 'react-i18next'
+import i18n, { languages } from '../../i18n';
 
-const Home = () => {
+const Home = (props) => {
+    const { lang }= props.match.params
+
+    useEffect(() => {
+        const item = languages.find(item => item.name === lang)
+        if (item && lang !== i18n.language) {
+            i18n.changeLanguage(lang);
+            props.history.replace(lang)
+        }
+    }, [lang, props.history])
+
     const { t } = useTranslation();
     return (
         <Styled.Container>

@@ -10,7 +10,7 @@ const Pages = () => {
             <ResetCss />
             <Languages />
             <Switch>
-                <Route component={Home} path="/" />
+                <Route component={Home} path="/:lang?" />
                 <Redirect to="/" />
             </Switch>
         </div>

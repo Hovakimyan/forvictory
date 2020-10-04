@@ -6,7 +6,7 @@ import * as Styled from './styled'
 
 const List = () => {
     const lostList = useMemo(() => {
-        return losses.map((item) => <Item item={item} />)
+        return losses.map((item) => <Item key={item.name} item={item} />)
     }, [])
     return <Styled.Container>{lostList}</Styled.Container>
 }
