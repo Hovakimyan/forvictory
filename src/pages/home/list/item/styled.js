@@ -10,6 +10,7 @@ export const Container = styled.div`
     align-items: center;
     display: flex;
     flex-direction: column;
+    margin: 10px;
     @media ${device.mobileL} {  
         width: 200px;
     }
