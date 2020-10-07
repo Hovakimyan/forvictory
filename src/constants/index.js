@@ -1,8 +1,8 @@
-import Tank from '../assests/tank.png'
-import Helicopter from '../assests/helicopter.png'
+import Tank from '../assests/tank.svg'
+import Helicopter from '../assests/helicopter.svg'
 import Solider from '../assests/solider.svg'
-import Jet from '../assests/jet.png'
-import Smerch from '../assests/smerch.png'
+import Jet from '../assests/plain.svg'
+import Smerch from '../assests/smerch.svg'
 import ATS from '../assests/ats.png'
 
 const losses = [
