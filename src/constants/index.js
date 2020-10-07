@@ -8,12 +8,12 @@ import ATS from '../assests/ats.png'
 const losses = [
     {
         name: 'UAV',
-        count: 126,
+        count: 127,
         img: ATS,
     },
     {
         name: 'ARMOR',
-        count: 379,
+        count: 416,
         img: Tank,
     },
     {
@@ -33,7 +33,7 @@ const losses = [
     },
     {
         name: 'DEAD',
-        count: 3454,
+        count: 3754,
         img: Solider,
     },
 ]
